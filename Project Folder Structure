@@ -1,0 +1,20 @@
+production-ready-kubernetes-deployment
+│
+├── app
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── kubernetes
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   ├── ingress.yaml
+│
+├── .github
+│   └── workflows
+│       └── cicd.yaml
+│
+├── scripts
+│   └── deploy.sh
+│
+└── README.md
